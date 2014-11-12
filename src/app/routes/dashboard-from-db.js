@@ -49,7 +49,7 @@ function (angular) {
 
     if (!window.grafanaImportDashboard) {
       $scope.appEvent('alert-warning', ['Dashboard load failed', 'Cannot reload unsaved imported dashboard']);
-      $location.path('');
+      //$location.path('');
       return;
     }
 
