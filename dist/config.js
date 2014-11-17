@@ -18,7 +18,7 @@ function (Settings) {
       },
       elasticsearch: {
         type: 'elasticsearch',
-        url: 'http://es-01:9200',
+        url: 'https://search.internal.wireddit.com',
         index: 'grafana-dash',
         grafanaDB: true,
       }
